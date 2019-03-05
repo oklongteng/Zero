@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cole.ipc">
+
+    <application>
+        <service
+            android:name=".RemoteService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote"></service>
+
+        <activity android:name=".IPCActivity"></activity>
+    </application>
+
+</manifest>
