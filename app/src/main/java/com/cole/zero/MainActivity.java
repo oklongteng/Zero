@@ -8,6 +8,8 @@ import android.view.View;
 import com.cole.ipc.IPCActivity;
 import com.cole.view.ViewActivity;
 import com.cole.view.ViewPagerActivity;
+import com.cole.view.RecyclerActivity;
+import com.cole.view.activity.MeasureActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_fragment:
                 Intent intent = new Intent(this, ViewActivity.class);
                 startActivity(intent);
+
                 break;
             case R.id.btn_view_pager:
                 intent = new Intent(this,ViewPagerActivity.class);
@@ -35,6 +38,14 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_ipc:
                 intent = new Intent(this,IPCActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_recycler:
+                intent = new Intent(this,RecyclerActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_measure:
+                intent = new Intent(this,MeasureActivity.class);
                 startActivity(intent);
                 break;
             default:

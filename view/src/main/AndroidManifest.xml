@@ -3,8 +3,10 @@
     package="com.cole.view">
 
     <application>
-        <activity android:name=".ViewActivity"></activity>
-        <activity android:name=".ViewPagerActivity"></activity>
+        <activity android:name=".ViewActivity" />
+        <activity android:name=".ViewPagerActivity" />
+        <activity android:name=".RecyclerActivity" />
+        <activity android:name=".activity.MeasureActivity"></activity>
     </application>
 
 </manifest>
